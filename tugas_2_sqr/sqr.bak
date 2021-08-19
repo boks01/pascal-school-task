@@ -1,0 +1,14 @@
+program kuadrat;
+uses crt;
+var hasil1,x : real;
+    hasil2,y : integer;
+begin
+        clrscr;
+        x := 10.2;
+        y := 5;
+        hasil1 := SQR(x);
+        hasil2 := SQR(y);
+        writeln('Penggunaan SQR dari ',x,' = ', hasil1 );
+        writeln('Penggunaan SQR dari ',y,' = ', hasil2 );
+        readln;
+end.
